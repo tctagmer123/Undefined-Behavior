@@ -75,7 +75,7 @@ end)
 local PANEL = {}
 
 function PANEL:Paint(w, h)
-    draw.RoundedBox(udbrui.lib:scale(18), 0, 0, w, h, udbrui.lib:color(Color(16,16,18)))
+    draw.RoundedBox(udbrui.lib:scale(18), 0, 0, w, h, udbrui.lib:color(Color(106,16,18)))
 end
 
 vgui.Register("udbrui.frame", PANEL, "DPanel")
